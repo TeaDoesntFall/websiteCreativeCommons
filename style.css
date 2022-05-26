@@ -13,28 +13,35 @@ p{
   font-size: 30px
 }
 
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+h1 {
+ font-size: 75px;
+} 
+p{
+  font-size: 30px
 }
 
-.header a {
-  float: left;
-  color: black;
+
+.hero-image {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  height: 35%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
   text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-
-.header a.logo {
-  font-size: 30px;
-  font-weight: bold;
-}
 
 
 
