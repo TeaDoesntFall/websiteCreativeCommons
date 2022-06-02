@@ -6,6 +6,7 @@ body {
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
+  
 }
 
 img {
@@ -14,13 +15,12 @@ img {
   height: autopx;
 }
 
-
 h1,
 h2,
 h3 {
   margin: 0;
   padding: 1em 0;
-  font-size:30px;
+  font-size:40px;
 } 
 .nep {
   display: inline-block;
@@ -37,7 +37,9 @@ h3 {
 }
 p {
   margin: 0;
-  padding: 1em 0;
+  font-size: 20px;
+  padding-bottom: 1.1em;
+  
 }
 
 .btn {
@@ -56,30 +58,62 @@ p {
 
 }
 /* Dropdown Button */
- ul {
-   background-color: red;
-   text-align: center;
- }
-li{
-  display: inline;
-}
-a{
+.btn {
   display: inline-block;
-  color: white;
+  color: #fff;
   text-decoration: none;
-  padding:20px;
+  padding: 1em 2em;
+  border: 1px solid #fff;
+  margin: 0.5em 0;
 }
 
-a:hover{
-  background-color: blue;
-  color: white;
+.btn:hover {
+  background: #eaeaea;
+  color: #333;
 }
+
+.dropbtn {
+  background-color: linear-gradient(to bottom, #006994 0%, #706991 100%);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: linear-gradient(to bottom, #006994 0%, #706991 100%);}
+
 /* Header Showcase */
 
 #showcase {
   min-height: 450px;
   color: #fff;
   text-align: center;
+  padding-bottom: 45px;
 }
 
 #showcase .bg-image {
@@ -97,19 +131,11 @@ a:hover{
 
 #showcase h1 {
   padding-top: 50px;
-  padding-bottom: 15;
+  padding-bottom: 15px;
 }
 
 #showcase .content-wrap,
-#section-a .content-wrap {
-  padding:1.5em;
-}
 
-
-/* section-a */
-#section-a .content-wrap {
-  padding: 0 1.5em;
-}
 /* Dropdown */
 
 <style>
@@ -148,7 +174,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #FFC3B1;
+  background-color: #006994;
 }
 
 .dropdown-content {
@@ -176,5 +202,30 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* section-a */
+#section-a .content-wrap {
+font-size: px;
+
+  
+  padding:1.5em;
+}
+
+/* section B */
+#section-c {
+  background: #333;
+  color: #fff;
+  padding-bottom: 2em;
+  padding-left: 2em;
+   padding-right: 2em;
+   padding-top: 2em;
+}
+<!-- Section-B -->
+<section id="section-b">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IOoV1Q_VGFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section-b>
+
+
 </style>
 
