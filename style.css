@@ -21,7 +21,11 @@ h3 {
   margin: 0;
   padding: 1em 0;
   font-size:40px;
+  font-family: 'Martel', serif;
 } 
+p{
+ font-family: 'Martel', serif;
+}
 .nep {
   display: inline-block;
   color: #fff;
@@ -140,7 +144,7 @@ p {
 
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 .navbar {
@@ -218,6 +222,7 @@ font-size: px;
   padding-left: 2em;
    padding-right: 2em;
    padding-top: 2em;
+  
 }
 <!-- Section-B -->
 <section id="section-b">
