@@ -14,17 +14,19 @@ img {
   width: 100%;
   height: autopx;
 }
-
+a{
+  font-family: 'Abril Fatface', cursive;
+}
 h1,
 h2,
 h3 {
   margin: 0;
   padding: 1em 0;
   font-size:40px;
-  font-family: 'Martel', serif;
+ font-family: 'Abril Fatface', cursive;
 } 
 p{
- font-family: 'Martel', serif;
+font-family: 'Abril Fatface', cursive;
 }
 .nep {
   display: inline-block;
@@ -173,7 +175,7 @@ body {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: 'Abril Fatface', cursive;
   margin: 0;
 }
 
